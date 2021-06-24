@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0 10%;
+    background: #FAF5ED;
+}
+
+hr {
+    margin: 32px 0;
+    color: #EBE6DF;
+}
+
+.navbar {
+    padding-top: 4vh;
+}
+
+.content-container {
+    display: flex;
+}
+
+.content.small {
+    max-width: 220px;
+}
+
+.content.medium {
+    max-width: 320px;
+}
+
+.content.large {
+    max-width: 440px;
+}
+
+.seperator {
+    border: 1px solid #EBE6DF;
+}
+
+.fab.fa-ethereum.large {
+    font-size: 2em;
+}
+
+.fab.fa-ethereum.large:hover {
+    color: #62688F;
+}
+
+.fas.fa-podcast.medium {
+    font-size: 1em;
+
+}
