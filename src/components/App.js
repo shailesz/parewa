@@ -5,18 +5,18 @@ import placeholder from "../apis/placeholder";
 const App = () => {
   const [posts, setPosts] = useState([]);
 
-  useEffect(()=>{
+  useEffect(() => {
     fetchPosts();
-  }, [])
+  }, []);
 
-    const fetchPosts = async () => {
+  const fetchPosts = async () => {
     const { data } = await placeholder.get("/posts");
     setPosts(data);
   };
 
   return (
     <div className="ui container">
-      <PostGrid posts={posts} />
+      {posts.length === 0 ? "Loading!" : <PostGrid posts={posts} />}
     </div>
   );
 };
