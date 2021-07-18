@@ -10,7 +10,8 @@ const App = () => {
   }, []);
 
   const fetchPosts = async () => {
-    const { data } = await placeholder.get("/posts");
+    const { data } = await placeholder.get("/news");
+    console.log(data);
     setPosts(data);
   };
 

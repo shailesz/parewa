@@ -8,29 +8,29 @@ const PostGrid = ({ posts }) => {
   return (
     <div className="content-container">
       <div className="column">
-        <Small body={posts[0].body} title={posts[0].title} />
+        <Small post={posts[0]} />
         <hr />
-        <Small body={posts[1].body} title={posts[1].title} />
+        <Small post={posts[1]} />
       </div>
 
       <div className="seperator"></div>
 
       <div className="column">
-        <Large body={posts[2].body} title={posts[3].title} />
+        <Large post={posts[2]} />
       </div>
 
       <div className="seperator"></div>
 
       <div className="column">
-        <Small body={posts[3].body} title={posts[3].title} />
+        <Small post={posts[3]} />
         <hr />
-        <Small body={posts[4].body} title={posts[4].title} />
+        <Small post={posts[4]} />
       </div>
 
       <div className="seperator"></div>
 
       <div className="column">
-        <Medium body={posts[5].body} title={posts[5].title} />
+        <Medium post={posts[5]} />
         <hr />
         {/* <Medium /> */}
       </div>
