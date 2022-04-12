@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/parewa/static/js/main.7c4ffd90.chunk.js",
+    "main.js.map": "/parewa/static/js/main.7c4ffd90.chunk.js.map",
+    "runtime-main.js": "/parewa/static/js/runtime-main.3e01ea48.js",
+    "runtime-main.js.map": "/parewa/static/js/runtime-main.3e01ea48.js.map",
+    "static/js/2.31bc8bdb.chunk.js": "/parewa/static/js/2.31bc8bdb.chunk.js",
+    "static/js/2.31bc8bdb.chunk.js.map": "/parewa/static/js/2.31bc8bdb.chunk.js.map",
+    "index.html": "/parewa/index.html",
+    "static/js/2.31bc8bdb.chunk.js.LICENSE.txt": "/parewa/static/js/2.31bc8bdb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e01ea48.js",
+    "static/js/2.31bc8bdb.chunk.js",
+    "static/js/main.7c4ffd90.chunk.js"
+  ]
+}
